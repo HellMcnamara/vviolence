@@ -1,0 +1,52 @@
+/*default version*/
+@font-face {
+  font-family: 'Akademie';
+  src: url('../assets/fonts/Akademie/NBAkademieStd.otf') format('opentype');
+}
+/*Bold version*/
+@font-face {
+  font-family: 'Akademie';
+  src: url('../assets/fonts/Akademie/NBAkademieStd-Bold.otf') format('opentype');
+  font-weight: bold;
+}
+
+body{
+  font-family:'Akademie', sans-serif;
+  background-color: #D5D3D8;
+  color: #666166;
+}
+
+.Wrapper{
+  margin: 0px auto;
+  padding-top: 80px;
+  max-width: 1200px;
+}
+
+.Wrapper h1{
+  font-family:'Akademie', sans-serif;
+  font-weight: bold;
+  font-size: 88px;
+  margin: 0px;
+}
+
+.Wrapper p{
+  margin: 0px;
+  font-size: 76px;
+}
+
+a{
+  color:#666166;
+  text-decoration: none;
+  padding: 5px;
+}
+
+a:hover{
+  color: white;
+  background-color:#666166;
+  text-decoration: none
+}
+
+.Social{
+  padding-top: 80px;
+  font-size: 16px;
+}
