@@ -23,7 +23,13 @@ module.exports = {
         sampleRate: 5,
         siteSpeedSampleRate: 10,
         cookieDomain: "example.com",
-      },
+        },
+
+        resolve: `gatsby-plugin-hotjar`,
+        options: {
+        id: 1172575,
+        sv: 6,
+        },
     },
   ],
 }
