@@ -5,7 +5,7 @@ export default () => (
     <div className="Wrapper">
       <Header /> 
       <h1>Hey I’m Jay,</h1>
-        <p>a Colombian designerd based <br></br>in Mexico City.</p>
+        <p>a Colombian designerd based in Mexico City.</p>
         <p>Product Designer at 23 Design.</p>
         <div className="Social">
             <a href="https://twitter.com/Noyonosoyesa" target="_blank" rel="noopener noreferrer">Twitter</a> -

@@ -10,16 +10,24 @@
   font-weight: bold;
 }
 
+html {
+  background-color: #D5D3D8;
+}
+
 body{
-  font-family:'Akademie', sans-serif;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
   background-color: #D5D3D8;
   color: #666166;
+  padding-top: 1%;
+  font-family:'Akademie', sans-serif;
 }
 
 .Wrapper{
   margin: 0px auto;
-  padding-top: 80px;
-  max-width: 1200px;
+  padding: 5%;
+  max-width: 75%;
 }
 
 .Wrapper h1{
@@ -53,11 +61,26 @@ a:hover{
 
 @media only screen and (max-width: 600px) {
 
+
+  html {
+    background-color:  #D5D3D8;
+  }
+
+  body {
+    padding-top: 30%;
+  }
+
+  .Wrapper{
+    margin: 0px auto;
+    max-width: 90%;
+    line-height: 1.2;
+  }
+
   .Wrapper h1{
     font-size: 60px;
   }
   
   .Wrapper p{
-    font-size: 34px;
+    font-size: 40px;
   }
 }
