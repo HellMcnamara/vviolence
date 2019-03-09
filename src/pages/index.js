@@ -4,7 +4,7 @@ import Header from "../components/header"
 export default () => (
     <div className="Wrapper">
       <Header /> 
-      <h1>Hey, I’m Jay.</h1>
+      <h1>Hey, I’m Jay!</h1>
         <p>a Colombian designerd based in Mexico City.</p>
         <div className="Social">
             <a href="https://twitter.com/Noyonosoyesa" target="_blank" rel="noopener noreferrer">Twitter</a> -
