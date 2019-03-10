@@ -16,12 +16,13 @@ html {
 
 body{
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
   background-color: #D5D3D8;
   color: #666166;
-  padding-top: 1%;
   font-family:'Akademie', sans-serif;
+}
+
+.Nav{
+  background-color: fuchsia;
 }
 
 .Wrapper{
@@ -40,6 +41,13 @@ body{
 .Wrapper p{
   margin: 0px;
   font-size: 76px;
+}
+
+.Wrapper-Worklist {
+  background-color: yellow;
+  margin: 0 auto;
+  max-width: 75%;
+
 }
 
 a{

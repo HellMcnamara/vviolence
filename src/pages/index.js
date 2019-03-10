@@ -1,9 +1,8 @@
 import React from "react"
-import Header from "../components/header"
 
 export default () => (
     <div className="Wrapper">
-      <Header /> 
+    <p> <span role="img" aria-label="Sanduche">🥪</span> </p>
       <h1>Hey, I’m Jay!</h1>
         <p> a Colombian designerd based in Mexico City.</p>
         <div className="Social">
