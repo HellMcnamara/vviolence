@@ -94,6 +94,28 @@ font-size: 1.5em;
 line-height: 1.4;
 }
 
+.FeatureProject{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  line-height: 1.4;
+}
+
+.p-feature h2{
+  font-family:'Akademie', sans-serif;
+  font-weight: 400;
+  margin: 3% auto;
+  font-size: 4em;
+  }
+
+.p-feature p{
+  font-size: 2em;
+  width: 60%;
+  }
+
+.p-UseCase{
+  background-color: pink;
+}
 
 .Social{
   padding-top: 80px;
