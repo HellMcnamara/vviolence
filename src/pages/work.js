@@ -4,11 +4,23 @@ import Header from "../components/header"
 export default () => (
     <div className="Wrapper-Worklist">
     <Header/> 
-        <p>Bitso </p>
-        <p>500 Startups </p>
-        <p>Citibanamex </p>
-        <div className="Pages">
-            <a href="https://heyjay.me" target="_blank" rel="noopener noreferrer">Back to home →</a>
+        <div className="FeatureWork">
+            <div className="c-feature">
+              <img src={require('../assets/images/example-thumb-1.jpg')} alt="thumb"></img> 
+             <p>Bitso: We relaunched the record subscription service Vinyl Me, Please. </p>
+            </div>
+            <div className="c-feature">
+            <img src={require('../assets/images/example-thumb-2.jpg')} alt="thumb"></img> 
+                <p>500 startups: We revisited Red Bull’s biggest musical moments of 2016.</p>
+            </div>
+            <div className="c-feature">
+            <img src={require('../assets/images/example-thumb-3.jpg')} alt="thumb"></img> 
+                <p>Citibanamex: We helped Ableton introduce their latest products and tell better stories.</p>
+            </div>
+            <div className="c-feature">
+            <img src={require('../assets/images/example-thumb-4.jpg')} alt="thumb"></img> 
+               <p>Otro más perrissssss..</p>
+            </div>
         </div>
     </div>
   )
