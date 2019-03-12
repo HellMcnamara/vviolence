@@ -32,14 +32,24 @@ body{
   font-size: 40px;
   }
 
-.Nav a:nth-child(1){
+
+.Nav_title a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*Bold version
+.Nav_list a:nth-child(1){
   margin-right: 40%;
   text-decoration-line: line-through;
 }
+*/
 
 img{
   width: 100%;
 }
+
 
 a{
   color:#666166;
@@ -47,11 +57,11 @@ a{
   padding: 5px;
 }
 
+
 a:hover{
   background-color:#C4C2C7;
   text-decoration: none
 }
-
 
 .Wrapper{
   margin: 0px auto;
@@ -83,6 +93,17 @@ a:hover{
   justify-content: space-between;
 }
 
+.c-feature a{
+  text-decoration: none;
+  padding: 0;
+}
+.c-feature a:hover{
+  text-decoration: none;
+  padding: 0;
+  background-color:#D5D3D8
+}
+
+
 .c-feature {
   margin-bottom:6%;
   padding: 0 5%;
@@ -104,17 +125,59 @@ line-height: 1.4;
 .p-feature h2{
   font-family:'Akademie', sans-serif;
   font-weight: 400;
-  margin: 3% auto;
+  text-align: center;
+  margin: 6% auto;
   font-size: 4em;
   }
 
+
+
 .p-feature p{
-  font-size: 2em;
+  font-size: 2.2em;
   width: 60%;
+  padding-top: 6%;
   }
 
-.p-UseCase{
-  background-color: pink;
+.UseCase-left{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.3em;
+
+}
+
+.UseCase-image-left{
+  margin: 15% 0;
+  padding: 0;
+  width: 60%;
+}
+
+.UseCase-item-left{
+  margin-top:6%;
+  padding: 0;
+  width: 35%;
+}
+
+.UseCase-right{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.3em;
+
+}
+
+.UseCase-image-right{
+  margin: 15% 0;
+  padding: 0;
+  width: 60%;
+}
+
+.UseCase-item-right{
+  margin-top:6%;
+  padding: 0;
+  width: 35%;
 }
 
 .Social{

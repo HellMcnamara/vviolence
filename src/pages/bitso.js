@@ -10,15 +10,26 @@ export default () => (
               <img src={require('../assets/images/example-thumb-1.jpg')} alt="thumb"></img>
               <p>Playlists are the new albums – the predominant format in pop music. Spotify is at the vanguard of this transformation, building entire scenes and genres around their human-curated lists.</p> 
             </div>
-            <div className="p-UseCase">
-            <img src={require('../assets/images/example-thumb-2.jpg')} alt="thumb"></img> 
-            <p>Our role</p>
-            <ul>
-                <li>Interaction Design</li>
-                <li>Product Management</li>
-                <li>Visual Design</li>
-            </ul>
-            <p>The ambition was to create a unique, ownable brand that would work within Spotify’s design system and UX – and way beyond!</p>
+            <div className="UseCase-left">
+                <div className="UseCase-image-left">                            
+                    <img src={require('../assets/images/example-thumb-2.jpg')} alt="thumb"></img>          
+                </div>
+                <div className="UseCase-item-left">
+                <p>To fuel their recent strategic pivot from b2c to b2b, we redesigned their brand and website. Our role:</p>
+                    <ul>
+                        <li>Interaction Design</li>
+                        <li>Product Management</li>
+                        <li>Visual Design</li>
+                    </ul>   
+                </div>  
+            </div>
+            <div className="UseCase-right">
+                <div className="UseCase-item-right">
+                <p>We continue to refine and grow the service against its core proposition of highlighting under-appreciated talent and providing cultural context to a dedicated audience of music lovers.</p>  
+                </div>
+                <div className="UseCase-image-right">                            
+                    <img src={require('../assets/images/example-thumb-4.jpg')} alt="thumb"></img>          
+                </div> 
             </div>
         </div>
     </div>

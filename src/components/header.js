@@ -1,13 +1,16 @@
 import React from "react"
+import { Link } from "gatsby"
 
 export default () => (
     <div className="Nav">
     <div className="Nav_title">
+    <Link to="/">
       <p><span role="img" aria-label="Sanduche"> 🥪</span></p>
+    </Link>
     </div>
     <div className="Nav_list">
-      <a href="https://heyjay.me/work/" target="_blank" rel="noopener noreferrer">Work</a>
-      <a href="https://twitter.com/Noyonosoyesa" target="_blank" rel="noopener noreferrer">About</a>
+     <Link to="/work">Work</Link>
+     <Link to="/">About</Link>
     </div>
     </div>
   )
