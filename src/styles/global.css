@@ -180,6 +180,20 @@ line-height: 1.4;
   width: 35%;
 }
 
+.related-articles{
+  width: 100%;
+  text-align: center;
+  padding-bottom: 8%;
+}
+
+.related-articles h3{
+font-size: 2.5em;
+font-weight: 500;
+}
+.Next {
+  background-color: pink;
+}
+
 .Social{
   padding-top: 80px;
   font-size: 16px;

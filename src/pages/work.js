@@ -14,15 +14,15 @@ export default () => (
             </div>
             <div className="c-feature">
             <img src={require('../assets/images/example-thumb-2.jpg')} alt="thumb"></img> 
-                <p>We helped Bitso introduce an esay way to Buy and Sell Bitcoin and Criptocurrencies.</p>
+                <p>We helped 500 LATAM increase entrepreneur's applications for batch 9.</p>
             </div>
             <div className="c-feature">
             <img src={require('../assets/images/example-thumb-3.jpg')} alt="thumb"></img> 
-                <p>We helped Bitso introduce an esay way to buy and sell criptocurrencies.</p>
+                <p>We re-design the first time use for Citibanamex App.</p>
             </div>
             <div className="c-feature">
             <img src={require('../assets/images/example-thumb-4.jpg')} alt="thumb"></img> 
-               <p>Otro más perrissssss..</p>
+               <p>Organize Mexico's City official Sketch Meetup</p>
             </div>
         </div>
     </div>
