@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{136:function(e,a,t){"use strict";t.r(a);var n=t(0),r=t.n(n);a.default=function(){return r.a.createElement("div",{className:"Wrapper"},r.a.createElement("h1",null,"Work"),r.a.createElement("p",null,"Bitso&"),r.a.createElement("p",null,"500 Startups&"),r.a.createElement("div",{className:"Social"},r.a.createElement("a",{href:"https://heyjay.me",target:"_blank",rel:"noopener noreferrer"},"Back to home →")))}}}]);
-//# sourceMappingURL=component---src-pages-work-js-3545f783ea1a0829783d.js.map
