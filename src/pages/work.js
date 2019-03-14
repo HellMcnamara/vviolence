@@ -9,19 +9,19 @@ export default () => (
             <div className="c-feature">
             <Link to="/bitso">
               <img src={require('../assets/images/example-thumb-1.jpg')} alt="thumb"></img> 
-             <p>We helped Bitso introduce an esay way to Buy and Sell Bitcoin and Criptocurrencies.</p>
+             <p>Introducing an esay way to Buy and Sell Bitcoin and  Criptocurrencies.</p>
              </Link>
             </div>
             <div className="c-feature">
             <Link to="/500">
             <img src={require('../assets/images/example-thumb-2.jpg')} alt="thumb"></img> 
-                <p>We helped 500 LATAM increase entrepreneur's applications for batch 9.</p>
+                <p>Increasing 500 Latam entrepreneurs' applications for batch 10.</p>
             </Link>
             </div>
             <div className="c-feature">
             <Link to="/citi">
             <img src={require('../assets/images/example-thumb-3.jpg')} alt="thumb"></img> 
-                <p>We re-design the first time use for Citibanamex App.</p>
+                <p>Improving first time use for Citibanamex App.</p>
             </Link>
             </div>
             <div className="c-feature">
