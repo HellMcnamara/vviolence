@@ -7,7 +7,7 @@ export default () => (
         <div className="FeatureProject">
             <div className="p-feature">
               <h2>Organize Mexico's City official Sketch Meetup</h2>
-              <img src={require('../assets/images/example-thumb-4.jpg')} alt="thumb"></img>
+              <img src={require('../assets/images/sketch-hero.png')} alt="thumb"></img>
               <p>Playlists are the new albums – the predominant format in pop music. Spotify is at the vanguard of this transformation, building entire scenes and genres around their human-curated lists.</p> 
             </div>
             <div className="UseCase-left">

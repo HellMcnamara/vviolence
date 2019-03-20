@@ -7,6 +7,20 @@ export default () => (
         <div className="FeatureProject">
             <div className="p-feature">
               <h2>Introducing an easy way to buy and sell criptocurrencies.</h2>
+              <div className="Role">
+                <div className="Col-Role">
+                    <h5>Role:</h5> <span>Product Designer.</span>
+                </div>
+                <div className="Col-Role">
+                    <h5>Support roles:</h5> <span>Interaction Designer, Visual Designer.</span>
+                </div>
+                <div className="Col-Role">
+                    <h5>Date:</h5> <span>June 2018 - present.</span>
+                </div>
+                <div className="Col-Role">
+                    <h5>Platforms:</h5> <span>Web, Android, iOS.</span>
+                </div>
+              </div>
               <img src={require('../assets/images/bitso-hero.png')} alt="thumb"></img>
               <p>Bitso, the first and leading cryptocurrency exchange platform in Mexico and Latin America, has around 500K users more than 60% of the national market. The company started operations in April of 2014 with the mission of reinventing financial services in Mexico.</p> 
             </div>

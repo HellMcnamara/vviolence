@@ -27,7 +27,7 @@ export default () => (
             <div className="c-feature">
             <Link to="/sketch"> 
             <img src={require('../assets/images/example-thumb-4.jpg')} alt="thumb"></img> 
-               <p>Organize Mexico's City official Sketch Meetup</p>
+               <p>Side project — Organize Mexico's City official Sketch Meetup</p>
             </Link>
             </div>
         </div>

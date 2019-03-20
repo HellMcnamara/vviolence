@@ -7,7 +7,21 @@ export default () => (
         <div className="FeatureProject">
             <div className="p-feature">
               <h2>Improving first time use for Citibanamex App.</h2>
-              <img src={require('../assets/images/example-thumb-3.jpg')} alt="thumb"></img>
+              <div className="Role">
+                <div className="Col-Role">
+                    <h5>Role:</h5> <span>Visual and interaction designer.</span>
+                </div>
+                <div className="Col-Role">
+                    <h5>Support roles:</h5> <span>Strategy.</span>
+                </div>
+                <div className="Col-Role">
+                    <h5>Date:</h5> <span>December 2017 - 1 week.</span>
+                </div>
+                <div className="Col-Role">
+                    <h5>Platforms:</h5> <span>iOS.</span>
+                </div>
+              </div>
+              <img src={require('../assets/images/citi-hero.png')} alt="thumb"></img>
               <p>Playlists are the new albums – the predominant format in pop music. Spotify is at the vanguard of this transformation, building entire scenes and genres around their human-curated lists.</p> 
             </div>
             <div className="UseCase-left">
