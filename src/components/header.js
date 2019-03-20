@@ -10,7 +10,7 @@ export default () => (
     </div>
     <div className="Nav_list">
      <Link to="/work">Work</Link>
-     <Link to="/">About</Link>
+     <Link to="about">About</Link>
     </div>
     </div>
   )

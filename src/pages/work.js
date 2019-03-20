@@ -9,7 +9,7 @@ export default () => (
             <div className="c-feature">
             <Link to="/bitso">
               <img src={require('../assets/images/example-thumb-1.jpg')} alt="thumb"></img> 
-             <p>Introducing an esay way to Buy and Sell Bitcoin and  Criptocurrencies.</p>
+             <p>Introducing an esay way to buy and Sell Bitcoin and criptocurrencies.</p>
              </Link>
             </div>
             <div className="c-feature">
