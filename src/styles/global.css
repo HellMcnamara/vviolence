@@ -29,7 +29,7 @@ body{
 }
 ::selection{
   background-color: var(--color-pink);
-  color: var(--color-dark);
+  color: var(--color-white);
 }
 img{
   width: 100%;
@@ -92,7 +92,7 @@ a:hover{
   max-width: 80%;
 }
 
-
+.Welcome{}
 .Welcome h1{
   font-family:'Akademie', sans-serif;
   font-weight: bold;
@@ -118,6 +118,7 @@ a:hover{
   text-align: left;
   margin-top: 12%;
   font-size: 4em;
+
 }
 
 .AboutMe p {
@@ -346,6 +347,7 @@ video{
 .Next a{
   position: relative;
   padding-right: 30px;
+  font-weight: 700;
 }
 .Next a:before{
   content: '';

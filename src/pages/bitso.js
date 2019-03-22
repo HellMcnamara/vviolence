@@ -211,8 +211,6 @@ export default () => (
         <p>Next Project</p>
       </Link>
       </div>
-
-
     </div>
   </div>
 );
