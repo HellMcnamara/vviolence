@@ -207,8 +207,8 @@ export default () => (
       </div>
 
       <div className="Next">
-      <Link to="/500">
-        <p>Next Project</p>
+      <Link to="/citi">
+      <p> Citi<span role="img" aria-label="coin"> 💳 </span>| Next Project</p>
       </Link>
       </div>
     </div>

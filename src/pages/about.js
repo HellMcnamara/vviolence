@@ -12,7 +12,7 @@ export default () => (
             <p>Because I was working a lot with the Mexican tech ecosystem, in 2016 I received a job offer to moving to the city and be part of a strategic design studio called 23 design.</p>
             <p>At <a href="https://23.design" target="_blank" rel="noopener noreferrer" className="link">23 Design</a>, in 3 years I have had the opportunity to work with more than 20 startups and companies in industries such Real state, venture capital, fintech, Mobility, Banking, Music Business, e-commerce, marketplace, artificial intelligence, social.</p>
             <p>At nights also I organize Mexico's city official <a href="https://hellosketch.com?ref=heyjay.me" target="_blank" rel="noopener noreferrer" className="link">Sketch meetup</a> where designers and developers discuss ideas, new technologies and learn best practices about user interface and interaction design. </p>
-            <p>I'm still giving courses, conferences and writing about design< span role="img" aria-label="COP"> 💪</span>.</p>
+            <p>I'm still giving courses, conferences and writing about design < span role="img" aria-label="COP"> 💪</span>.</p>
             <div className="Social">
                 <a href="https://www.linkedin.com/in/hellmcnamara/" target="_blank" rel="noopener noreferrer">Linkedin</a> -
                 <a href="https://twitter.com/Noyonosoyesa" target="_blank" rel="noopener noreferrer">Twitter</a> -

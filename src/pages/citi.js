@@ -118,8 +118,8 @@ export default () => (
       </div>
 
       <div className="Next">
-        <Link to="/500">
-            <p>Next Project</p>
+        <Link to="/sketch">
+            <p> Sketch<span role="img" aria-label="Diamond"> 💎 </span>| Next Project</p>
         </Link>
       </div>
 
