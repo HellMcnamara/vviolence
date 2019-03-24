@@ -38,7 +38,7 @@ export default () => (
 
       <div className="rowCase">
         <div className="rowCase-description">
-          <p className="quote"><a href="https://bitso.com" target="_blank" rel="noopener noreferrer" className="link">Bitso</a>, the first and leading cryptocurrency exchange platform in Mexico and Latin America, has around 500K users (more than 60% of the national market). The company started operations in April of 2014.</p>
+          <p className="intro"><a href="https://bitso.com" target="_blank" rel="noopener noreferrer" className="link">Bitso</a>, the first and leading cryptocurrency exchange platform in Mexico and Latin America, has around 500K users (more than 60% of the national market). The company started operations in April of 2014.</p>
         </div>
         <div className="rowCase-image">
           <img src={require("../assets/images/bitso/bitso-process-1.png")} alt="thumb" />
@@ -47,7 +47,7 @@ export default () => (
       
       <div className="rowCase-center">
         <div className="description text-center">
-          <p>“ With the mission of democratizing access to crypto, the platform's challenge was to attract <strong>new users, especially the none experts</strong>.”</p>
+          <p className="quote-mini">“ With the mission of democratizing access to crypto, the platform's challenge was to attract <strong>new users, especially the none experts</strong>.”</p>
         </div>
       </div>
       
@@ -82,7 +82,7 @@ export default () => (
 
       <div className="rowCase-center">
         <div className="description text-center">
-          <p>“ When we communicated our design decisions <strong>we always put in context Dani</strong>. Bitso appropriated this mindset and got used to questioning them in this way.”</p>
+          <p className="quote-mini">“ When we communicated our design decisions <strong>we always put in context Dani</strong>. Bitso appropriated this mindset and got used to questioning them in this way.”</p>
         </div>
       </div>
 
@@ -96,13 +96,13 @@ export default () => (
 
       <div className="rowCase-center">
         <div className="description text-center">
-          <p>“ Crypto will not stop being complex, but we are convinced that <strong>we can achieve much by simplifying the interface</strong> with which people interact...”</p>
+          <p className="quote-mini">“ Crypto will not stop being complex, but we are convinced that <strong>we can achieve much by simplifying the interface</strong> with which people interact...”</p>
         </div>
       </div>
       
       <div className="rowCase-center">
         <div className="description text-center">
-          <img src={require("../assets/images/bitso/bitso-random.png")} alt="thumb" />
+          <img src={require("../assets/images/bitso/bitso-ui-iterations.gif")} alt="thumb" />
         </div>
       </div>
 
@@ -173,7 +173,7 @@ export default () => (
 
       <div className="rowCase-center">
         <div className="description text-center">
-          <p>“ With our work simplifying the experience, <strong>we achieve our challenge</strong> and let Dani buy Bitcoin for the first time. ”</p>
+          <p className="quote-mini">“ With our work simplifying the experience, <strong>we achieve our challenge</strong> and let Dani buy Bitcoin for the first time. ”</p>
         </div>
       </div>
 
@@ -185,7 +185,7 @@ export default () => (
 
       <div className="rowCase">
         <div className="rowCase-image">
-          <img src={require("../assets/images/bitso/bitso-ui-iterations.gif")} alt="thumb" />
+          <img src={require("../assets/images/bitso/bitso-4taps.gif")} alt="thumb" />
         </div>
         <div className="rowCase-description">
           <p className="quote-mini">“ With the new Bitso app, <strong>we make it possible for anyone</strong> to buy Bitcoin and other cryptocurrencies with only 4 taps.”</p>
@@ -202,7 +202,7 @@ export default () => (
             <li>A decrease of support tickets.</li>
             <li>Increased of fundings in Bitso accounts.</li>
           </ul>
-          <p>We're currently working on improve Bitso Transfer and relaunch the website :) 👋</p>
+          <p>We're currently working on improve Bitso Transfer and relaunch the website :) <span role="img" aria-label="adios">👋</span></p>
         </div>
       </div>
 

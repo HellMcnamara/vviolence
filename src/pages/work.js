@@ -13,12 +13,6 @@ export default () => (
              </Link>
             </div>
             <div className="c-feature">
-            <Link to="/500">
-            <img src={require('../assets/images/example-thumb-2.jpg')} alt="thumb"></img> 
-                <p>Increasing 500 Latam entrepreneurs' applications for batch 10.</p>
-            </Link>
-            </div>
-            <div className="c-feature">
             <Link to="/citi">
             <img src={require('../assets/images/example-thumb-3.jpg')} alt="thumb"></img> 
                 <p>Improving first time use for Citibanamex App.</p>
