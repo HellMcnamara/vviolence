@@ -84,9 +84,13 @@ a:hover{
 
 
 /* Containers */
+
+
 .Wrapper{
-  margin: 0px auto;
-  padding: 5%;
+  margin: 0 auto;
+  max-width: 80%;
+}
+.Home{
   max-width: 75%;
 }
 .Wrapper-Worklist {
@@ -131,14 +135,19 @@ a:hover{
   width: 60%;
 }
 
-
-
-
-
 .Nav{
   display: flex;
   margin-bottom: 6%;
   margin-top: 2%;
+  justify-content: space-between;
+  align-items: center; 
+  font-size: 1.2em;
+}
+
+.Nav_Home{
+  display: flex;
+  margin-bottom: 6%;
+  margin-top: 2.7%;
   justify-content: space-between;
   align-items: center; 
   font-size: 1.2em;
@@ -157,6 +166,12 @@ a:hover{
   padding: 0;
   margin: 0;
 }
+
+.Nav_Menu .Active a {
+  text-decoration: line-through;
+
+}
+
 .Nav_Menu li{
   display: inline-block;
 }
@@ -166,7 +181,6 @@ a:hover{
   transition: all .3s cubic-bezier(0.645, 0.045, 0.355, 1);
   display: inline-block; 
 }
-
 
 /* Work lists */
 .FeatureWork{

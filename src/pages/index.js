@@ -1,7 +1,10 @@
 import React from "react"
+import Header from "../components/header";
 
 export default () => (
     <div className="Wrapper Welcome">
+    <Header/>
+    <div className="Home">
     <p> <span role="img" aria-label="Sanduche">🥪</span> </p>
       <h1>Hey, I’m Jay!</h1>
         <p> a Colombian designerd based in Mexico City.</p>
@@ -10,5 +13,6 @@ export default () => (
             <a href="https://dribbble.com/hellmcnamara" target="_blank" rel="noopener noreferrer">Dribbble</a> - 
             <a href="https://www.instagram.com/noyonosoyesa/" target="_blank" rel="noopener noreferrer">Instagram</a> 
         </div>
+    </div>
     </div>
   )
