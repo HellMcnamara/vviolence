@@ -28,22 +28,92 @@ export default () => (
         <img src={require("../assets/images/citi/citi-hero.png")} alt="thumb" />
         <div className="description-center">
           <h3>The Challenge:</h3>
-          <p>Use Design sprint methodology and generate value for Citibanamex clients through the digital banking experience in five days.</p>
+          <p>Use Design sprint methodology and <strong>generate value</strong> for Citibanamex clients through the digital banking experience in <strong>five days</strong>.</p>
+        </div>
+      </div>
+      
+      <div className="rowCase">
+        <div className="rowCase-image">
+          <img src={require("../assets/images/citi/citi-process-1.png")} alt="thumb" />
+        </div>
+        <div className="rowCase-description">
+          <h3>Monday — The problem</h3>
+          <p>We took the time to understand with our clients what the business challenges were, how digital banking industry in Mexico looks and the current state of their product.</p>
+        </div>
+      </div>
+
+      <div className="rowCase-center">
+        <div className="description text-center">
+          <p className="quote-mini">"To 2020, Citibanamex want to be the #1 digital Bank.”</p>
         </div>
       </div>
 
       <div className="rowCase">
         <div className="rowCase-description">
-          <p className="quote"><a href="https://bitso.com" target="_blank" rel="noopener noreferrer" className="link">Bitso</a>, the first and leading cryptocurrency exchange platform in Mexico and Latin America, has around 500K users (more than 60% of the national market). The company started operations in April of 2014.</p>
+          <h3>Tuesday —  Design for</h3>
+          <p>We ran activities like empathy maps, journey mapping and user personas that help us a solution that helps Citibanamex meet their business goals.</p>
+          <p>Mapping the user journey, let us identify 22 user's pains. 22 opportunities to improve the service and get a little closer to be the best digital banking experience in Mexico.</p>
+          <p>Later we chose only 5 that met the following characteristics: Had a business impact, be actionable and Viable in 6 months.</p>
         </div>
         <div className="rowCase-image">
-          <img src={require("../assets/images/bitso/bitso-process-1.png")} alt="thumb" />
+          <img src={require("../assets/images/citi/citi-process-2.png")} alt="thumb" />
         </div>
       </div>
-      
       <div className="rowCase-center">
         <div className="description text-center">
-          <p>“ With the mission of democratizing access to crypto, the platform's challenge was to attract <strong>new users, especially the none experts</strong>.”</p>
+          <p className="quote-mini">"Our user has to be able to enter the app for the first time <strong>without friction,  </strong> without the need to go to the bank and without the assistance of an executive.”</p>
+        </div>
+      </div>
+
+      <div className="rowCase">
+         <div className="rowCase-image">
+          <img src={require("../assets/images/citi/citi-process-4.gif")} alt="thumb" />
+        </div>
+        <div className="rowCase-description">
+          <h3>Wednesday and Tuesday</h3>
+          <p>We took <strong>2 days to conceptualize and prototype</strong> a solution that gives the users an easy way to access Citibanamex's app.</p>
+          <p>Things like user personas and technological constrain were consider for the solution we were building.</p>
+        </div>
+      </div>
+
+      <div className="rowCase-center">
+        <div className="description-center">
+          <h3>Visual design</h3>
+          <p>After our wireframe session, I was in charge to solve Citibanamex's app new visual language.</p>
+          <p>My proposal keeping in mind brand guidelines</p>
+        </div>
+      </div>
+      <div className="rowCase">
+        <div className="description-center">
+          <img src={require("../assets/images/citi/citi-process-6.png")} alt="thumb" />
+        </div>
+      </div>
+
+
+      <div className="rowCase">
+        <div className="rowCase-description">
+        <p>To help our clients <strong>visualize better the experience</strong>, I made a rapid prototype using Principle app.</p>
+          <p>If you have short deadlines, Principle is the best tool you can choose and in this case, I only had a few hours to complete this artifact.</p>
+        </div>
+        <div className="rowCase-image">
+        <video src={require("../assets/images/citi/principle-citi.mp4")} loop autoplay="true"></video>
+        </div>
+      </div>
+      <div className="rowCase">
+        <div className="description-center">
+        <img src={require("../assets/images/citi/citi-prototype.gif")} alt="thumb" />
+        </div>
+      </div>
+
+      <div className="rowCase-center">
+        <div className="description-center">
+          <h3>Friday</h3>
+          <p>On our last day of work, we presented a keynote where we summarized a little the process that we had taken together during the week and how we had arrived at the solution that we were presenting to them. All tied to KPIs that will impact the business will cure users' pains and will be executed at the engineering level in no more than 6 months.</p>
+        </div>
+      </div>
+      <div className="rowCase">
+        <div className="description-center">
+          <img src={require("../assets/images/citi/citi-process-7.png")} alt="thumb" />
         </div>
       </div>
 

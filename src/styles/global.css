@@ -98,7 +98,6 @@ a:hover{
   max-width: 80%;
 }
 
-.Welcome{}
 .Welcome h1{
   font-family:'Akademie', sans-serif;
   font-weight: bold;
@@ -165,8 +164,7 @@ a:hover{
   padding: 10px 15px;
   border-radius: 30px;
   transition: all .3s cubic-bezier(0.645, 0.045, 0.355, 1);
-  display: inline-block;
-  margin-left: 
+  display: inline-block; 
 }
 
 

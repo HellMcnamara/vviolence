@@ -14,7 +14,7 @@ export default () => (
             <p>At nights also I organize Mexico's city official <a href="https://hellosketch.com?ref=heyjay.me" target="_blank" rel="noopener noreferrer" className="link">Sketch meetup</a> where designers and developers discuss ideas, new technologies and learn best practices about user interface and interaction design. </p>
             <p>I'm still giving courses, conferences and writing about design< span role="img" aria-label="COP"> 💪</span>.</p>
             <div className="Social">
-                <a href="https://www.linkedin.com/in/hellmcnamara/" target="_blank" rel="noopener noreferrer">Linkedin</a> 
+                <a href="https://www.linkedin.com/in/hellmcnamara/" target="_blank" rel="noopener noreferrer">Linkedin</a> -
                 <a href="https://twitter.com/Noyonosoyesa" target="_blank" rel="noopener noreferrer">Twitter</a> -
                 <a href="https://dribbble.com/hellmcnamara" target="_blank" rel="noopener noreferrer">Dribbble</a> - 
                 <a href="https://www.instagram.com/noyonosoyesa/" target="_blank" rel="noopener noreferrer">Instagram</a> 

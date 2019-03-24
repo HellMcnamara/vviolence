@@ -1,60 +1,49 @@
-import React from "react"
-import Header from "../components/header"
+import React from "react";
+import { Link } from "gatsby"
+import Header from "../components/header";
 
 export default () => (
-    <div className="Wrapper-Worklist">
-    <Header/> 
-        <div className="FeatureProject">
-            <div className="p-feature">
-              <h2>Organize Mexico's City official Sketch Meetup</h2>
-              <img src={require('../assets/images/sketch-hero.png')} alt="thumb"></img>
-              <p>Playlists are the new albums – the predominant format in pop music. Spotify is at the vanguard of this transformation, building entire scenes and genres around their human-curated lists.</p> 
-            </div>
-            <div className="UseCase-left">
-                <div className="UseCase-image-left">                            
-                    <img src={require('../assets/images/example-thumb-9.jpg')} alt="thumb"></img>          
-                </div>
-                <div className="UseCase-item-left">
-                <p>To fuel their recent strategic pivot from b2c to b2b, we redesigned their brand and website. Our role:</p>
-                    <ul>
-                        <li>Interaction Design</li>
-                        <li>Product Management</li>
-                        <li>Visual Design</li>
-                    </ul>   
-                </div>  
-            </div>
-            <div className="UseCase-right">
-                <div className="UseCase-item-right">
-                <p>We continue to refine and grow the service against its core proposition of highlighting under-appreciated talent and providing cultural context to a dedicated audience of music lovers.</p>  
-                </div>
-                <div className="UseCase-image-right">                            
-                    <img src={require('../assets/images/example-thumb-6.gif')} alt="thumb"></img>          
-                </div> 
-            </div>
-            <div className="UseCase-left">
-                <div className="UseCase-image-left">                            
-                    <img src={require('../assets/images/example-thumb-8.jpg')} alt="thumb"></img>          
-                </div>
-                <div className="UseCase-item-left">
-                <p>A flexible system of typefaces, colours, textures and treatments allows the team to create individual posters and moods for each show, while retaining the unmistakable common thread that is so important to 
-                    stand up in NYC’s cluttered-yet-uniform cultural landscape.</p> 
-                </div>  
-            </div>
-            <div className="UseCase-right">
-                <div className="UseCase-item-right">
-                <p>We continue to refine and grow the service against its core proposition of highlighting under-appreciated talent and providing cultural context to a dedicated audience of music lovers.</p>  
-                </div>
-                <div className="UseCase-image-right">                            
-                    <img src={require('../assets/images/example-thumb-7.gif')} alt="thumb"></img>          
-                </div> 
-            </div>
-            <div className="related-articles">
-            <h3>Articles</h3>
-            <p>Una búsqueda obsesiva por la máxima simplificación de cripto</p>
-            </div> 
-            <div className="Next">
-            <p>Next Project →</p>
-            </div>
+  <div className="Wrapper-Worklist">
+    <Header />
+    <div className="FeatureProject">
+      <section className="HeroProject">
+        <h1>Organize Mexico's City official Sketch Meetup</h1>
+        <div className="HeroProject_Roles">
+          <div>
+            <h4>Role:</h4>
+            <p>Organizer</p>
+          </div>
+          <div>
+            <h4>Date:</h4>
+            <p>November 2017 - present</p>
+          </div>
         </div>
+      </section>
+
+      <div className="rowCase-center">
+        <img src={require("../assets/images/sketch/sketch-hero.png")} alt="thumb" />
+        <div className="description-center">
+          <h3>The Challenge:</h3>
+          <p>Use Design sprint methodology and <strong>generate value</strong> for Citibanamex clients through the digital banking experience in <strong>five days</strong>.</p>
+        </div>
+      </div>
+      
+      <div className="rowCase">
+        <div className="rowCase-image">
+          <img src={require("../assets/images/citi/citi-process-1.png")} alt="thumb" />
+        </div>
+        <div className="rowCase-description">
+          <h3>Monday — The problem</h3>
+          <p>We took the time to understand with our clients what the business challenges were, how digital banking industry in Mexico looks and the current state of their product.</p>
+        </div>
+      </div>
+
+      <div className="Next">
+        <Link to="/500">
+            <p>Next Project</p>
+        </Link>
+      </div>
+
+      </div>
     </div>
-  ) 
+);
