@@ -34,13 +34,13 @@ export default () => (
           </div>
           <div className="rowCase-description">
           <p><a href="https://www.sketch.com/" target="_blank" rel="noopener noreferrer" className="link">Sketch</a>, is the most popular and used tool for design interfaces. Since 2017, I organized Mexico’s City official Sketch meetup.</p>
-          <p>With a bunch of friends, we saw a big opportunity to build a space where designers and developers could discuss and learn about topics related to interaction design, collaboration, best practices and meet new people that every day was solved the same problems they do.</p>
+          <p>With a bunch of friends, we saw a big opportunity to <strong> build a space</strong> where designers and developers could discuss and learn about topics related to interaction design, collaboration, best practices and meet new people that every day was solved the same problems they do.</p>
           </div>
       </div>
 
       <div className="rowCase">
       <div className="rowCase-description">
-      <p>We use surveys in order to find ways to improve the community and inquire about the topics of interest.</p>
+      <p><strong>We use surveys </strong> in order to find ways to improve the community and inquire about the topics of interest.</p>
       <p>Some of the things we have talked about are:</p>
       <ul className="list">
             <li>Prototyping.</li>
