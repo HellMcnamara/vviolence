@@ -67,7 +67,7 @@ export default () => (
 
       <div className="rowCase">
         <div className="rowCase-description">
-          <h3>Visual Design</h3>
+          <h3>Wireframes & Visual Design</h3>
           <p>At the beginning of this phase, as a team we had two clear objectives that we wanted to achieve:</p>
           <ul className="list">
             <li>Visual approval of some key screens.</li>
@@ -163,7 +163,7 @@ export default () => (
       <div className="rowCase-center">
         <div className="description-center">
           <h3>Launch the Apps</h3>
-          <p>Before the launch, we prepared a couple of extra artifacts to communicate the changes that would come with the updating of the apps.<strong> A landinpage, videos and articles</strong> were part of the team's latest effort.</p>
+          <p>Before the launch, we prepared a couple of extra artifacts to communicate the changes that would come with the updating of the apps.<strong> Landing page, videos and articles</strong> were part of the team's latest effort.</p>
         </div>
       </div>
 
