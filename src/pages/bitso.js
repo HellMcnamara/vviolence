@@ -163,7 +163,7 @@ export default () => (
       <div className="rowCase-center">
         <div className="description-center">
           <h3>Launch the Apps</h3>
-          <p>As we were his external design team, we had different <strong>collaborative activities</strong> to get good feedback from stakeholders that were involved in the product development. Make them part of this process let us understand better legal, biz or engineering constraints.</p>
+          <p>Before the launch, we prepared a couple of extra artifacts to communicate the changes that would come with the updating of the apps.<strong> A landinpage, videos and articles</strong> were part of the team's latest effort.</p>
         </div>
       </div>
 
