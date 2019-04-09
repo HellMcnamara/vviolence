@@ -7,7 +7,7 @@ export default () => (
     <Header />
     <div className="FeatureProject">
       <section className="HeroProject">
-        <h1>Introducing an easy way to buy and sell criptocurrencies.</h1>
+        <h1>Introducing an easy way to buy and sell cryptocurrencies.</h1>
         <div className="HeroProject_Roles">
           <div>
             <h4>Role:</h4>
